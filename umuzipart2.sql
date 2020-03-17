@@ -17,8 +17,8 @@ DELETE FROM customers WHERE customersid = 2;
 SELECT COUNT(DISTINCT status) FROM orders;
 
 --6--
-select distinct on (status) status
-from orders
+select distinct on (status) 
+from orders;
 
 --7--
 SELECT MAX(amount)
